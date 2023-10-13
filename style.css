@@ -1,0 +1,224 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif
+	/* font-family: 'Kenia', sans-serif; */
+}
+
+.container {
+	background-color: #f5f5f5;
+}
+.container img {
+	width: 50px;
+}
+
+/*/ -------------------------------------------------------------------------- */
+/*/ -------------------------------   HEADER  -------------------------------- */
+/*/ -------------------------------------------------------------------------- */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1rem;
+}
+
+.header ul {
+	list-style-type: none;
+	display: flex;
+	gap: 2.5rem;
+}
+
+/* logo  */
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	width: 60px;
+	height: 60px;
+}
+/* end of  logo  */
+
+/*\ -------------------------------------------------------------------------- */
+/*\ -------------------------------   NAVBAR  -------------------------------- */
+/*\ -------------------------------------------------------------------------- */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #20889f;
+	color: #fff;
+}
+
+.navbar p {
+	font-family: "Kenia", sans-serif;
+	font-size: 2rem;
+	text-decoration: none;
+	padding-left: 1rem;
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	gap: 1rem;
+	font-family: "Inter", sans-serif;
+}
+
+.nav-name {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-name p {
+	font-size: 1rem;
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+}
+.nav-name img {
+	width: 70px;
+	height: 70px;
+}
+
+/*// -------------------------------------------------------------------------- */
+/*// --------------------------------   MAIN  --------------------------------- */
+/*// -------------------------------------------------------------------------- */
+.main {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+/*  left side  */
+.left {
+	width: 30%;
+	background: #fff;
+	margin-top: 2rem;
+	margin-left: 25rem;
+	box-shadow: 3px 3px 3px gray;
+}
+
+.left ul {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	list-style: none;
+}
+
+.left ul li {
+	display: inline-block;
+	padding: 1rem;
+}
+/* end of left side  */
+
+.ilk {
+	background-color: #d2e7ec;
+    border-radius: 5px;
+}
+
+/* main part 1  */
+.main-part1{
+    background-color: #fff;
+    margin-top: 2rem;
+    width: 60%;
+	box-shadow: 3px 3px 3px gray;
+    margin-left: 2rem;
+    padding: 10px;
+}
+
+.participants {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid gray;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.main-part1 h2{
+    color: #20889F;
+}
+.avatars{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.avatars img {
+    width: 80px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.avatars-p .name{
+    font-size: 1.4rem;
+}
+/* end of main part 1  */
+
+
+/* topFollower */
+.topFollower {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newlist{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.newlist img{
+    width: 40%;
+    border: 12px solid #20889f;
+    border-radius: 1rem;
+}
+
+.writer{
+    font-size: 12px;
+    color: rgba(32, 136, 159, 0.8);
+}
+/* end of topFollower */
+
+/* main part 2  */
+.main-part2{
+    background-color: #fff;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding:10px;
+    width: 60%;
+	box-shadow: 3px 3px 3px gray;
+}
+.main-part2 h2 {
+    color:  rgba(32, 136, 159, 0.8);;
+}
+.topnews-div{
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.top-news {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnews img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* end of main part 2  */
